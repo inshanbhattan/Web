@@ -24,3 +24,5 @@ form {
 h1 {
     font-family:"Comic Sans MS", cursive, sans-serif  ;
 }
+#fixednav{width: 10px;position: fixed;bottom:55% ;right: 25px;}
+#fixednav1{width: 10px;position:fixed;bottom:55% ;left: 0px;}
