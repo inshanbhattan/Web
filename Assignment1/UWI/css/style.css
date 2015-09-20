@@ -23,12 +23,10 @@ header {
         max-width: 100%
        }
 
-
+.top ul li a,.bot ul li a{color:white;font-family: fantasy;font-size: 25px; }
 nav.top {background-color:#2196F3;}
 
-nav.top ul li:hover { background-color: white;
-                      text-color:pink
-                    }
+nav.top ul li:hover { background-color: white;  }
 nav.top ul li:visited{text-color:red}
 
 
@@ -55,6 +53,7 @@ nav.top ul li:visited{text-color:red}
       background-color: #1565C0;
       height: 65vh;
       margin-bottom: 0px;
+
      }
 
 .container{ line-height:110%;
@@ -67,8 +66,10 @@ nav.top ul li:visited{text-color:red}
 .bot ul li { list-style-type: none;
              margin: 0px;padding: 0px;
              margin-bottom: 45px;
+
             }
-.bot ul li a :hover{color: white}
+
+
 
 
 
