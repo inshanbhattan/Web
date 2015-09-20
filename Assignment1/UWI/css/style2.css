@@ -19,7 +19,9 @@ form {
     text-transform: uppercase;
 }
 
-#members {background-color: darkslategray}
+#members {background-color: darkslategray;}
+
+table, th, td {border: 1px solid black;  }
 
 h1 {
     font-family:"Comic Sans MS", cursive, sans-serif  ;
