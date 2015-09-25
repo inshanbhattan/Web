@@ -1,0 +1,93 @@
+*{margin: 0px; padding: 0px}
+
+header {
+        height:70vh;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 60px;
+        color: white;
+        font-family: fantasy;
+        max-width: 100%
+       }
+
+.top ul li a,.bot ul li a{color:white;font-family: fantasy;font-size: 25px; }
+nav.top {background-color:#2196F3;}
+
+nav.top ul li:hover { background-color: black;  }
+
+
+
+
+.top ul { list-style-type:none;
+          margin:0px;
+          padding-top: 5px;
+          text-align: justify;
+        }
+
+.top ul li { display: inline-block;
+            padding-bottom: 0px;
+            padding-top: 10px;
+           }
+
+.top ul:after { content:" ";
+              display:inline-block;
+              width:100%;
+              height: 0px
+              }
+
+
+.bot { text-align: center;
+      background-color: #1565C0;
+      height: 65vh;
+      margin-bottom: 0px;
+
+     }
+
+.container{ line-height:110%;
+            color: white;
+            font-size: 20px;
+            height:360px;
+          }
+
+
+.bot ul li { list-style-type: none;
+             margin: 0px;padding: 0px;
+             margin-bottom: 45px;
+
+            }
+
+#col1{ width:50%;
+       padding-left: 30px;
+       padding-right: 30px;
+       float:left}
+
+#col2{ padding-left: 30px;
+       padding-right: 30px;}
+
+#fixednav{  width: 10px;
+            position:fixed;
+            bottom:55% ;
+            right: 25px;}
+
+#fixednav1{  width: 10px;
+             position:fixed;
+             bottom:55% ;
+             left: 0px;}
+
+@media only screen and (max-width:600px)
+{
+    .top {display: none}
+    header {height:100vh}
+    #col1 {width:100%}
+    #col2 {clear:both}
+    #fixednav,#fixednav1 {display: none}
+    .container {height:100%;}
+}
+
+@media only screen and (min-width:600px)
+{.bot {display: none}}
